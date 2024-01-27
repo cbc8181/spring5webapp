@@ -27,13 +27,6 @@ public class Author {
         this.lastName = lastName;
     }
 
-    public Author(Long id, String firstName, String lastName, Set<Book> books) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.books = books;
-    }
-
     public Long getId() {
         return id;
     }
@@ -72,7 +65,6 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
 
